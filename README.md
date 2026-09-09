@@ -90,10 +90,10 @@ streamlit run app.py
 ├── movies_app.pkl
 ├── requirements.txt
 ├── README.md
-└── movie_similarity.ipynb
+└── movie_recommendations.ipynb
 ```
 
-- `movie_similarity.ipynb` — подготовка данных, построение и сравнение методов;
+- `movie_recommendations.ipynb` — подготовка данных, построение и сравнение методов;
 - `app.py` — Streamlit-приложение;
 - `movies_app.pkl` — подготовленные данные для приложения;
 - `requirements.txt` — зависимости для запуска приложения.
