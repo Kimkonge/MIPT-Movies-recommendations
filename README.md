@@ -72,7 +72,7 @@ cd MIPT-Movies-recommendations
 ### 2. Установить зависимости
 
 ```bash
-pip install -r requirements-app.txt
+pip install -r requirements.txt
 ```
 
 ### 3. Запустить Streamlit
@@ -91,14 +91,14 @@ streamlit run app.py
 - `pandas`
 - `scikit-learn`
 
-Полный список находится в `requirements-app.txt`.
+Полный список находится в `requirements.txt`.
 
 ## Структура проекта
 
 ```text
 ├── app.py
 ├── movies_app.pkl
-├── requirements-app.txt
+├── requirements.txt
 ├── README.md
 └── movie_recommendations.ipynb
 ```
@@ -106,4 +106,4 @@ streamlit run app.py
 - `movie_recommendations.ipynb` — подготовка данных, построение и сравнение методов;
 - `app.py` — Streamlit-приложение;
 - `movies_app.pkl` — подготовленные данные для приложения;
-- `requirements-app.txt` — зависимости для запуска приложения.
+- `requirements.txt` — зависимости для запуска приложения.
